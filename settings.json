@@ -31,6 +31,10 @@
 
     // panes
     {
+      "before": ["leader", "m"],
+      "commands": ["workbench.action.toggleEditorWidths"]
+    },
+    {
       "before": ["leader", "h"],
       "commands": ["workbench.action.focusLeftGroup"]
     },
